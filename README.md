@@ -51,6 +51,8 @@ A Flask application that allows downloading TikTok videos and audio using yt-dlp
 
 ## Important Notes
 
-- The application automatically cleans up downloaded files older than 24 hours
-- Logs are stored in the `logs` directory with rotation
-- FFmpeg must be installed on the deployment server for audio extraction to work
+- The application automatically cleans up downloaded files older than 24 hours to ensure optimal performance and storage management.
+- Logs are stored in the `logs` directory with rotation to help monitor and debug the application effectively.
+- FFmpeg must be installed on the deployment server for audio extraction to work seamlessly. Ensure it is properly configured to avoid any issues during audio processing.
+- The application is designed with user privacy in mind; no personal data is stored or shared.
+- For best results, always use the latest version of the application and dependencies.
